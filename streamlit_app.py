@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.write("hello world")
-"""
+'''
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -108,4 +108,4 @@ st.header(f"price: {price:.2f} €")
 
 # generate pizza image
 st.image(generate_pizza_image(toppings, img_gen_model=img_gen_engine), width=400)
-"""
+'''
