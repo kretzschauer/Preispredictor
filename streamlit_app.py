@@ -4,7 +4,8 @@ from sklearn.model_selection import train_test_split
 from statsmodels import api as sm
 import os
 from openai import OpenAI
-
+st.write("hello world")
+"""
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 
@@ -105,3 +106,4 @@ st.header(f"price: {price:.2f} €")
 
 # generate pizza image
 st.image(generate_pizza_image(toppings, img_gen_model=img_gen_engine), width=400)
+"""
