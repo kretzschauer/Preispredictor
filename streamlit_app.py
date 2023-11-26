@@ -1,11 +1,13 @@
 import streamlit as st
+
+st.write("hello world")
+"""
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from statsmodels import api as sm
 import os
 from openai import OpenAI
-st.write("hello world")
-"""
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 
