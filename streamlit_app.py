@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from statsmodels import api as sm
 import os
-from openai import OpenAI
+#from openai import OpenAI
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 
