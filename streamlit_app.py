@@ -5,7 +5,7 @@ from statsmodels import api as sm
 import os
 from openai import OpenAI
 
-os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
+#os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 
 def create_model(csv_file):
