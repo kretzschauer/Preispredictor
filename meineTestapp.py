@@ -6,3 +6,5 @@ from statsmodels import api as sm
 csv_file="affen1trainingsdaten.csv"
 df = pd.read_csv(csv_file)
 st.write("Affentest")
+st.dataframe()
+st.table(df.iloc[0:10])
