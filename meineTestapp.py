@@ -19,5 +19,5 @@ st.write("Affentest")
 #st.dataframe()
 st.table(df.iloc[0:10])
 clf = tree.DecisionTreeClassifier()
-clf = clf.fit(X, Y)
+#clf = clf.fit(X, Y)
 
