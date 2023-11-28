@@ -5,7 +5,7 @@ from statsmodels import api as sm
 
 st.title('Affentest')
 #st.header('Affentest')
-st.markdown('[hinweise](https://cheat-sheet.streamlit.app/)')
+st.markdown('[das Streamlit-Cheat sheet](https://cheat-sheet.streamlit.app/)')
 csv_file="affen1trainingsdaten.csv"
 df = pd.read_csv(csv_file,delimiter=";")
 st.write("Affentest")
